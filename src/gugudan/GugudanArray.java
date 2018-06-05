@@ -21,7 +21,7 @@ public class GugudanArray {
 			System.out.println("입력한 구구단을 확인하세요!");
 		}else {
 			//Print Gugudan
-			for (int i = 0; i < 9; i++) {
+			for (int i = 0; i < guguAray.length; i++) { 
 				guguAray[i] = inDan * x;
 				System.out.println(inDan + " * " + x +" = " + guguAray[i]);
 				x++;
