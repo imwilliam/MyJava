@@ -3,7 +3,11 @@ package gugudan;
 // return 값 존재 method 정의, 파라미터 이용, 배열사용
 
 public class GugudanMethod3 {
-		
+    // added by will
+    private GugudanMethod3() {
+	// do not create a instance.
+    }
+	
     // 몇단인지 입력 받아서 해당 구구단을 배열 guguAray에 저장 후 main으로 return
 	public static int[] gugudan(int times, int max) {
 		int[] guguAray = new int[max];
